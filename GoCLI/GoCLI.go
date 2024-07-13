@@ -10,7 +10,7 @@ func main() {
 	for {
 		fmt.Print("What is your name? ")
 		fmt.Scan(&userName)
-		if userName != "steve" {
+		if userName != "steve" && userName != "Steve" {
 			if userName == "Steven" {
 				fmt.Println("OoOoOh I'm fancy my name is", userName)
 			}
